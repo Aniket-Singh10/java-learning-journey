@@ -23,7 +23,7 @@ public class Operators {
 
         // 4. Logical Operators: &&, ||, !
         // Using variables to avoid dead code and improve readability
-        boolean logicalResult = (55 > 5 || 55 > 25) && (55 < 9);
+        boolean logicalResult = (55 > 5) && (55 < 9);
         System.out.println("Logical operator result: " + logicalResult);
 
         // 5. Bitwise Operators: &, |
